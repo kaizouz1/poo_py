@@ -9,19 +9,25 @@ class Pessoa:
         self.idade = idade
         
     def apresentar(self):
-        print(f"Olá, meu nome é {self.nome}")
+        return print(f"Olá, meu nome é {self.nome}")
     
 class Aluno(Pessoa):
     def estudar(self):
-        print(f"{self.nome} esta estudando")
+        return print(f"{self.nome} esta estudando")
         
 class Professor(Pessoa):
     
     def ensinar(self):
-        print(f"{self.nome} esta ensinando")
+        return print(f"{self.nome} esta ensinando")
 
 a = Aluno("Kaizou", 20)
 p = Professor("Ana", 35)
 
+p.apresentar()
+p.ensinar()
+
+
 a.apresentar()
 a.estudar()
+
+
