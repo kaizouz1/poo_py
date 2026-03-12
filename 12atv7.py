@@ -22,5 +22,8 @@ class Conta:
 
 conta1 = Conta(1000) 
 print(conta1.saldo) 
-conta1.saldo = 800 
+conta1.saldo = 800
 print(conta1.saldo)
+conta1.saldo = -500
+print(conta1.saldo)
+
