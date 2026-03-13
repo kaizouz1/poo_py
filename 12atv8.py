@@ -14,7 +14,7 @@ class Aluno:
 
     @nota.setter
     def nota(self, valor):
-        if 0 <= valor <= 10:
+        if 0 < valor < 10:
             self.__nota = valor
         else:
             print("Erro: a nota deve estar entre 0 e 10.")
