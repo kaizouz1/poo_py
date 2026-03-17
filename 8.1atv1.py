@@ -16,3 +16,4 @@ class Produto:
 
 produto1 = Produto("Notebook", 3500.00)
 produto1.exibir_informacoes()
+# oitobem
